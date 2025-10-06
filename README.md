@@ -1,15 +1,6 @@
-# neo-cli
 
-```
-███╗   ██╗███████╗ ██████╗     ██████╗██╗     ██╗
-████╗  ██║██╔════╝██╔═══██╗   ██╔════╝██║     ██║
-██╔██╗ ██║█████╗  ██║   ██║   ██║     ██║     ██║
-██║╚██╗██║██╔══╝  ██║   ██║   ██║     ██║     ██║
-██║ ╚████║███████╗╚██████╔╝   ╚██████╗███████╗██║
-╚═╝  ╚═══╝╚══════╝ ╚═════╝     ╚═════╝╚══════╝╚═╝
-```
-
-**neo-cli** — a Matrix-inspired interactive shell for developers.
+## NEO CLI TOOL
+a Matrix-inspired interactive shell for developers.
 
 ## Installation
 

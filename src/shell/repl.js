@@ -188,7 +188,7 @@ async function processInput(input, config, rl) {
       await BUILTIN_COMMANDS[command](args, config);
       return;
     }
-    
+
     // Check for aliases
     if (config.aliases && config.aliases[command]) {
       const aliasCommand = config.aliases[command];
@@ -206,14 +206,7 @@ async function processInput(input, config, rl) {
       }
     }
     
-    // Check for neo-cli commands
-    if (command === 'neo-cli') {
-      // This will be handled by the main command processor
-      logger.info('Use neo-cli commands outside the shell or restart the shell.');
-      return;
-    }
-    
-    // Execute as system command
+    // Execute as system command (including neo-cli commands)
     await executeCommand(trimmedInput, config);
     
   } catch (error) {
